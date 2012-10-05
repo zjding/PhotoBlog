@@ -1,22 +1,27 @@
 //
-//  zjdAppDelegate.m
-//  PhotoBlog
+//  blogAppDelegate.m
+//  zjding_blog
 //
-//  Created by Zhijun Ding on 10/5/12.
+//  Created by Zhijun Ding on 7/25/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "zjdAppDelegate.h"
+#import "blogAppDelegate.h"
+#import "FlickrRootViewController.h"
 
-@implementation zjdAppDelegate
+@implementation blogAppDelegate
 
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    FlickrRootViewController *rootViewController = [[FlickrRootViewController alloc] init];
+    navController_ = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    
+    [[self window] addSubview:[navController_ view]];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
