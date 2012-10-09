@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC00A2AE1621D6E20058A757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC00A2AD1621D6E20058A757 /* UIKit.framework */; };
+		EC00A2B01621D6E20058A757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC00A2AF1621D6E20058A757 /* Foundation.framework */; };
+		EC00A2B21621D6E20058A757 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC00A2B11621D6E20058A757 /* CoreGraphics.framework */; };
+		EC00A2B81621D6E20058A757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC00A2B61621D6E20058A757 /* InfoPlist.strings */; };
+		EC00A2BA1621D6E20058A757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00A2B91621D6E20058A757 /* main.m */; };
+		EC00A2BE1621D6E20058A757 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00A2BD1621D6E20058A757 /* PBAppDelegate.m */; };
+		EC00A2C11621D6E20058A757 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC00A2BF1621D6E20058A757 /* MainStoryboard.storyboard */; };
+		EC00A2C41621D6E30058A757 /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00A2C31621D6E30058A757 /* BlogViewController.m */; };
+		EC00A2CC1621D81B0058A757 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00A2CB1621D81B0058A757 /* SettingViewController.m */; };
+		EC00A2CE1621D8500058A757 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = EC00A2CD1621D8500058A757 /* settings.png */; };
+		EC00A2D01621D85A0058A757 /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = EC00A2CF1621D85A0058A757 /* photos.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC00A2A91621D6E20058A757 /* PhotoBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC00A2AD1621D6E20058A757 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC00A2AF1621D6E20058A757 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC00A2B11621D6E20058A757 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC00A2B51621D6E20058A757 /* PhotoBlog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoBlog-Info.plist"; sourceTree = "<group>"; };
+		EC00A2B71621D6E20058A757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC00A2B91621D6E20058A757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC00A2BB1621D6E20058A757 /* PhotoBlog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoBlog-Prefix.pch"; sourceTree = "<group>"; };
+		EC00A2BC1621D6E20058A757 /* PBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
+		EC00A2BD1621D6E20058A757 /* PBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
+		EC00A2C01621D6E20058A757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EC00A2C21621D6E20058A757 /* BlogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		EC00A2C31621D6E30058A757 /* BlogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		EC00A2CA1621D81B0058A757 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		EC00A2CB1621D81B0058A757 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		EC00A2CD1621D8500058A757 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		EC00A2CF1621D85A0058A757 /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC00A2A61621D6E20058A757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC00A2AE1621D6E20058A757 /* UIKit.framework in Frameworks */,
+				EC00A2B01621D6E20058A757 /* Foundation.framework in Frameworks */,
+				EC00A2B21621D6E20058A757 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC00A29E1621D6E20058A757 = {
+			isa = PBXGroup;
+			children = (
+				EC00A2B31621D6E20058A757 /* PhotoBlog */,
+				EC00A2AC1621D6E20058A757 /* Frameworks */,
+				EC00A2AA1621D6E20058A757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC00A2AA1621D6E20058A757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC00A2A91621D6E20058A757 /* PhotoBlog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC00A2AC1621D6E20058A757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC00A2AD1621D6E20058A757 /* UIKit.framework */,
+				EC00A2AF1621D6E20058A757 /* Foundation.framework */,
+				EC00A2B11621D6E20058A757 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC00A2B31621D6E20058A757 /* PhotoBlog */ = {
+			isa = PBXGroup;
+			children = (
+				EC00A2BC1621D6E20058A757 /* PBAppDelegate.h */,
+				EC00A2BD1621D6E20058A757 /* PBAppDelegate.m */,
+				EC00A2BF1621D6E20058A757 /* MainStoryboard.storyboard */,
+				EC00A2C21621D6E20058A757 /* BlogViewController.h */,
+				EC00A2C31621D6E30058A757 /* BlogViewController.m */,
+				EC00A2B41621D6E20058A757 /* Supporting Files */,
+				EC00A2CA1621D81B0058A757 /* SettingViewController.h */,
+				EC00A2CB1621D81B0058A757 /* SettingViewController.m */,
+			);
+			path = PhotoBlog;
+			sourceTree = "<group>";
+		};
+		EC00A2B41621D6E20058A757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC00A2CF1621D85A0058A757 /* photos.png */,
+				EC00A2CD1621D8500058A757 /* settings.png */,
+				EC00A2B51621D6E20058A757 /* PhotoBlog-Info.plist */,
+				EC00A2B61621D6E20058A757 /* InfoPlist.strings */,
+				EC00A2B91621D6E20058A757 /* main.m */,
+				EC00A2BB1621D6E20058A757 /* PhotoBlog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC00A2A81621D6E20058A757 /* PhotoBlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC00A2C71621D6E30058A757 /* Build configuration list for PBXNativeTarget "PhotoBlog" */;
+			buildPhases = (
+				EC00A2A51621D6E20058A757 /* Sources */,
+				EC00A2A61621D6E20058A757 /* Frameworks */,
+				EC00A2A71621D6E20058A757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBlog;
+			productName = PhotoBlog;
+			productReference = EC00A2A91621D6E20058A757 /* PhotoBlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC00A2A01621D6E20058A757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EC00A2A31621D6E20058A757 /* Build configuration list for PBXProject "PhotoBlog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC00A29E1621D6E20058A757;
+			productRefGroup = EC00A2AA1621D6E20058A757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC00A2A81621D6E20058A757 /* PhotoBlog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC00A2A71621D6E20058A757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC00A2B81621D6E20058A757 /* InfoPlist.strings in Resources */,
+				EC00A2C11621D6E20058A757 /* MainStoryboard.storyboard in Resources */,
+				EC00A2CE1621D8500058A757 /* settings.png in Resources */,
+				EC00A2D01621D85A0058A757 /* photos.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC00A2A51621D6E20058A757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC00A2BA1621D6E20058A757 /* main.m in Sources */,
+				EC00A2BE1621D6E20058A757 /* PBAppDelegate.m in Sources */,
+				EC00A2C41621D6E30058A757 /* BlogViewController.m in Sources */,
+				EC00A2CC1621D81B0058A757 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC00A2B61621D6E20058A757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC00A2B71621D6E20058A757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC00A2BF1621D6E20058A757 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC00A2C01621D6E20058A757 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC00A2C51621D6E30058A757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC00A2C61621D6E30058A757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC00A2C81621D6E30058A757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBlog/PhotoBlog-Prefix.pch";
+				INFOPLIST_FILE = "PhotoBlog/PhotoBlog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC00A2C91621D6E30058A757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBlog/PhotoBlog-Prefix.pch";
+				INFOPLIST_FILE = "PhotoBlog/PhotoBlog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC00A2A31621D6E20058A757 /* Build configuration list for PBXProject "PhotoBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC00A2C51621D6E30058A757 /* Debug */,
+				EC00A2C61621D6E30058A757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC00A2C71621D6E30058A757 /* Build configuration list for PBXNativeTarget "PhotoBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC00A2C81621D6E30058A757 /* Debug */,
+				EC00A2C91621D6E30058A757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC00A2A01621D6E20058A757 /* Project object */;
+}
