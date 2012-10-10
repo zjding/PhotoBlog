@@ -26,6 +26,7 @@
 		EC20065C1623BE0900FA0567 /* KTThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006541623BE0900FA0567 /* KTThumbsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EC20065D1623BE0900FA0567 /* KTThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006561623BE0900FA0567 /* KTThumbView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EC2006751623C05A00FA0567 /* BlogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006741623C05A00FA0567 /* BlogDataSource.m */; };
+		EC55ED8B162522E9007C2208 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55ED8A162522E9007C2208 /* AWSiOSSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		EC2006561623BE0900FA0567 /* KTThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbView.m; sourceTree = "<group>"; };
 		EC2006731623C05A00FA0567 /* BlogDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogDataSource.h; sourceTree = "<group>"; };
 		EC2006741623C05A00FA0567 /* BlogDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogDataSource.m; sourceTree = "<group>"; };
+		EC55ED8A162522E9007C2208 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				EC00A2AE1621D6E20058A757 /* UIKit.framework in Frameworks */,
 				EC00A2B01621D6E20058A757 /* Foundation.framework in Frameworks */,
 				EC00A2B21621D6E20058A757 /* CoreGraphics.framework in Frameworks */,
+				EC55ED8B162522E9007C2208 /* AWSiOSSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +102,7 @@
 		EC00A2AC1621D6E20058A757 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC55ED8A162522E9007C2208 /* AWSiOSSDK.framework */,
 				EC00A2AD1621D6E20058A757 /* UIKit.framework */,
 				EC00A2AF1621D6E20058A757 /* Foundation.framework */,
 				EC00A2B11621D6E20058A757 /* CoreGraphics.framework */,
@@ -307,6 +311,10 @@
 		EC00A2C81621D6E30058A757 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoBlog/PhotoBlog-Prefix.pch";
 				INFOPLIST_FILE = "PhotoBlog/PhotoBlog-Info.plist";
@@ -318,6 +326,10 @@
 		EC00A2C91621D6E30058A757 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoBlog/PhotoBlog-Prefix.pch";
 				INFOPLIST_FILE = "PhotoBlog/PhotoBlog-Info.plist";
