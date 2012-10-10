@@ -7,6 +7,7 @@
 //
 
 #import "BlogViewController.h"
+#import "BlogDataSource.h"
 
 @implementation BlogViewController
 
@@ -22,6 +23,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Flickr Sample";
+    
+    activityIndicator_ = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    CGPoint center = [[self view] center];
+    [activityIndicator_ setCenter:center];
+    [activityIndicator_ setHidesWhenStopped:YES];
+    [activityIndicator_ startAnimating];
+    [[self view] addSubview:activityIndicator_];
 }
 
 - (void)viewDidUnload
@@ -38,7 +47,10 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidAppear:animated];
+    if (!images_) {
+        images_ = [[BlogDataSource alloc] init];
+        [self setDataSource:images_];
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated

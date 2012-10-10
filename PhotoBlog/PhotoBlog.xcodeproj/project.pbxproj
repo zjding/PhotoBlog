@@ -18,6 +18,14 @@
 		EC00A2CC1621D81B0058A757 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00A2CB1621D81B0058A757 /* SettingViewController.m */; };
 		EC00A2CE1621D8500058A757 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = EC00A2CD1621D8500058A757 /* settings.png */; };
 		EC00A2D01621D85A0058A757 /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = EC00A2CF1621D85A0058A757 /* photos.png */; };
+		EC2006571623BE0900FA0567 /* KTPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC2006491623BE0900FA0567 /* KTPhotoBrowser.bundle */; };
+		EC2006581623BE0900FA0567 /* KTPhotoBrowserGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = EC20064C1623BE0900FA0567 /* KTPhotoBrowserGlobal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC2006591623BE0900FA0567 /* KTPhotoScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC20064E1623BE0900FA0567 /* KTPhotoScrollViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC20065A1623BE0900FA0567 /* KTPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006501623BE0900FA0567 /* KTPhotoView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC20065B1623BE0900FA0567 /* KTThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006521623BE0900FA0567 /* KTThumbsView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC20065C1623BE0900FA0567 /* KTThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006541623BE0900FA0567 /* KTThumbsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC20065D1623BE0900FA0567 /* KTThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006561623BE0900FA0567 /* KTThumbView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC2006751623C05A00FA0567 /* BlogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006741623C05A00FA0567 /* BlogDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +46,22 @@
 		EC00A2CB1621D81B0058A757 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		EC00A2CD1621D8500058A757 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		EC00A2CF1621D85A0058A757 /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
+		EC2006491623BE0900FA0567 /* KTPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KTPhotoBrowser.bundle; sourceTree = "<group>"; };
+		EC20064A1623BE0900FA0567 /* KTPhotoBrowserDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoBrowserDataSource.h; sourceTree = "<group>"; };
+		EC20064B1623BE0900FA0567 /* KTPhotoBrowserGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoBrowserGlobal.h; sourceTree = "<group>"; };
+		EC20064C1623BE0900FA0567 /* KTPhotoBrowserGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoBrowserGlobal.m; sourceTree = "<group>"; };
+		EC20064D1623BE0900FA0567 /* KTPhotoScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoScrollViewController.h; sourceTree = "<group>"; };
+		EC20064E1623BE0900FA0567 /* KTPhotoScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoScrollViewController.m; sourceTree = "<group>"; };
+		EC20064F1623BE0900FA0567 /* KTPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoView.h; sourceTree = "<group>"; };
+		EC2006501623BE0900FA0567 /* KTPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoView.m; sourceTree = "<group>"; };
+		EC2006511623BE0900FA0567 /* KTThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThumbsView.h; sourceTree = "<group>"; };
+		EC2006521623BE0900FA0567 /* KTThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbsView.m; sourceTree = "<group>"; };
+		EC2006531623BE0900FA0567 /* KTThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThumbsViewController.h; sourceTree = "<group>"; };
+		EC2006541623BE0900FA0567 /* KTThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbsViewController.m; sourceTree = "<group>"; };
+		EC2006551623BE0900FA0567 /* KTThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThumbView.h; sourceTree = "<group>"; };
+		EC2006561623BE0900FA0567 /* KTThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbView.m; sourceTree = "<group>"; };
+		EC2006731623C05A00FA0567 /* BlogDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogDataSource.h; sourceTree = "<group>"; };
+		EC2006741623C05A00FA0567 /* BlogDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +81,7 @@
 		EC00A29E1621D6E20058A757 = {
 			isa = PBXGroup;
 			children = (
+				EC2006481623BE0900FA0567 /* KTPhotoBrowser */,
 				EC00A2B31621D6E20058A757 /* PhotoBlog */,
 				EC00A2AC1621D6E20058A757 /* Frameworks */,
 				EC00A2AA1621D6E20058A757 /* Products */,
@@ -87,11 +112,13 @@
 				EC00A2BC1621D6E20058A757 /* PBAppDelegate.h */,
 				EC00A2BD1621D6E20058A757 /* PBAppDelegate.m */,
 				EC00A2BF1621D6E20058A757 /* MainStoryboard.storyboard */,
+				EC2006731623C05A00FA0567 /* BlogDataSource.h */,
+				EC2006741623C05A00FA0567 /* BlogDataSource.m */,
 				EC00A2C21621D6E20058A757 /* BlogViewController.h */,
 				EC00A2C31621D6E30058A757 /* BlogViewController.m */,
-				EC00A2B41621D6E20058A757 /* Supporting Files */,
 				EC00A2CA1621D81B0058A757 /* SettingViewController.h */,
 				EC00A2CB1621D81B0058A757 /* SettingViewController.m */,
+				EC00A2B41621D6E20058A757 /* Supporting Files */,
 			);
 			path = PhotoBlog;
 			sourceTree = "<group>";
@@ -107,6 +134,28 @@
 				EC00A2BB1621D6E20058A757 /* PhotoBlog-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2006481623BE0900FA0567 /* KTPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EC2006491623BE0900FA0567 /* KTPhotoBrowser.bundle */,
+				EC20064A1623BE0900FA0567 /* KTPhotoBrowserDataSource.h */,
+				EC20064B1623BE0900FA0567 /* KTPhotoBrowserGlobal.h */,
+				EC20064C1623BE0900FA0567 /* KTPhotoBrowserGlobal.m */,
+				EC20064D1623BE0900FA0567 /* KTPhotoScrollViewController.h */,
+				EC20064E1623BE0900FA0567 /* KTPhotoScrollViewController.m */,
+				EC20064F1623BE0900FA0567 /* KTPhotoView.h */,
+				EC2006501623BE0900FA0567 /* KTPhotoView.m */,
+				EC2006511623BE0900FA0567 /* KTThumbsView.h */,
+				EC2006521623BE0900FA0567 /* KTThumbsView.m */,
+				EC2006531623BE0900FA0567 /* KTThumbsViewController.h */,
+				EC2006541623BE0900FA0567 /* KTThumbsViewController.m */,
+				EC2006551623BE0900FA0567 /* KTThumbView.h */,
+				EC2006561623BE0900FA0567 /* KTThumbView.m */,
+			);
+			name = KTPhotoBrowser;
+			path = PhotoBlog/KTPhotoBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +212,7 @@
 				EC00A2C11621D6E20058A757 /* MainStoryboard.storyboard in Resources */,
 				EC00A2CE1621D8500058A757 /* settings.png in Resources */,
 				EC00A2D01621D85A0058A757 /* photos.png in Resources */,
+				EC2006571623BE0900FA0567 /* KTPhotoBrowser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +227,13 @@
 				EC00A2BE1621D6E20058A757 /* PBAppDelegate.m in Sources */,
 				EC00A2C41621D6E30058A757 /* BlogViewController.m in Sources */,
 				EC00A2CC1621D81B0058A757 /* SettingViewController.m in Sources */,
+				EC2006581623BE0900FA0567 /* KTPhotoBrowserGlobal.m in Sources */,
+				EC2006591623BE0900FA0567 /* KTPhotoScrollViewController.m in Sources */,
+				EC20065A1623BE0900FA0567 /* KTPhotoView.m in Sources */,
+				EC20065B1623BE0900FA0567 /* KTThumbsView.m in Sources */,
+				EC20065C1623BE0900FA0567 /* KTThumbsViewController.m in Sources */,
+				EC20065D1623BE0900FA0567 /* KTThumbView.m in Sources */,
+				EC2006751623C05A00FA0567 /* BlogDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +345,7 @@
 				EC00A2C91621D6E30058A757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

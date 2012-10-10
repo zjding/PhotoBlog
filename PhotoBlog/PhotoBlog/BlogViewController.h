@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KTThumbsViewController.h"
 
-@interface BlogViewController : UIViewController
+@class BlogDataSource;
+
+@interface BlogViewController : KTThumbsViewController
+{
+    @private
+    BlogDataSource *images_;
+    UIActivityIndicatorView *activityIndicator_;    
+}
 
 @end
