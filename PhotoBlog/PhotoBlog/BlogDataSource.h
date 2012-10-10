@@ -10,7 +10,13 @@
 #import "KTPhotoBrowserDataSource.h"
 
 @interface BlogDataSource : NSObject <KTPhotoBrowserDataSource> {
-    NSArray *images_;
+    NSMutableArray *posts_;
 }
+
+@property (nonatomic, retain) NSString *nextToken;
+@property (nonatomic) NSInteger offset;
+
+//-(void) reload;
+//-(void) loadMore;
 
 @end

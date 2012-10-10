@@ -27,6 +27,9 @@
 		EC20065D1623BE0900FA0567 /* KTThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006561623BE0900FA0567 /* KTThumbView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EC2006751623C05A00FA0567 /* BlogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2006741623C05A00FA0567 /* BlogDataSource.m */; };
 		EC55ED8B162522E9007C2208 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55ED8A162522E9007C2208 /* AWSiOSSDK.framework */; };
+		EC55ED921625245F007C2208 /* AmazonClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55ED911625245F007C2208 /* AmazonClientManager.m */; };
+		EC55ED95162524E8007C2208 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55ED94162524E8007C2208 /* Post.m */; };
+		EC55ED981625A762007C2208 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55ED971625A762007C2208 /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,12 @@
 		EC2006731623C05A00FA0567 /* BlogDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogDataSource.h; sourceTree = "<group>"; };
 		EC2006741623C05A00FA0567 /* BlogDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogDataSource.m; sourceTree = "<group>"; };
 		EC55ED8A162522E9007C2208 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDK.framework; sourceTree = "<group>"; };
+		EC55ED901625245F007C2208 /* AmazonClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonClientManager.h; sourceTree = "<group>"; };
+		EC55ED911625245F007C2208 /* AmazonClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonClientManager.m; sourceTree = "<group>"; };
+		EC55ED93162524E8007C2208 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		EC55ED94162524E8007C2208 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		EC55ED961625A762007C2208 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		EC55ED971625A762007C2208 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				EC00A2BC1621D6E20058A757 /* PBAppDelegate.h */,
+				EC55ED961625A762007C2208 /* ISO8601DateFormatter.h */,
+				EC55ED971625A762007C2208 /* ISO8601DateFormatter.m */,
 				EC00A2BD1621D6E20058A757 /* PBAppDelegate.m */,
 				EC00A2BF1621D6E20058A757 /* MainStoryboard.storyboard */,
 				EC2006731623C05A00FA0567 /* BlogDataSource.h */,
@@ -123,6 +134,10 @@
 				EC00A2CA1621D81B0058A757 /* SettingViewController.h */,
 				EC00A2CB1621D81B0058A757 /* SettingViewController.m */,
 				EC00A2B41621D6E20058A757 /* Supporting Files */,
+				EC55ED901625245F007C2208 /* AmazonClientManager.h */,
+				EC55ED911625245F007C2208 /* AmazonClientManager.m */,
+				EC55ED93162524E8007C2208 /* Post.h */,
+				EC55ED94162524E8007C2208 /* Post.m */,
 			);
 			path = PhotoBlog;
 			sourceTree = "<group>";
@@ -238,6 +253,9 @@
 				EC20065C1623BE0900FA0567 /* KTThumbsViewController.m in Sources */,
 				EC20065D1623BE0900FA0567 /* KTThumbView.m in Sources */,
 				EC2006751623C05A00FA0567 /* BlogDataSource.m in Sources */,
+				EC55ED921625245F007C2208 /* AmazonClientManager.m in Sources */,
+				EC55ED95162524E8007C2208 /* Post.m in Sources */,
+				EC55ED981625A762007C2208 /* ISO8601DateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
